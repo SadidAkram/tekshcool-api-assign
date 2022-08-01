@@ -8,7 +8,8 @@ public class DataGenerator {
 		Faker faker = new Faker();
 		return faker.name().firstName() + faker.name().lastName() + "@gmail.com";
 	}
-
+// to generate fake phoneNumbers
+	
 	public static String getPhoneNumber() {
 		Faker faker = new Faker();
 		return faker.phoneNumber().cellPhone();
